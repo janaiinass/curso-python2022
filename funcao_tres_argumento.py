@@ -1,9 +1,9 @@
-def soma(a,b,c):
-    res = a + b + c
-    return res
-def menu():
-    a = int(input('Primeiro numero: '))
-    b = int(input('Segundo numero : '))
-    c = int(input('Terceiro numero: '))
+#Faça um programa, com uma função que necessite de três argumentos, e que forneça a soma desses três argumentos.
+def soma (num1,num2,num3,):
+    soma=num1 + num2 + num3
+    return soma 
 
-    print('Soma: ', soma(a,b,c))
+num1 =float(input("digite o primeiro numero: "))
+num2 =float(input("digite o segundo numero: "))
+num3 =float(input("digite o terceiro numero: "))
+print("soma : ", num1 + num2+ num3)
